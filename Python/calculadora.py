@@ -1,7 +1,7 @@
 '''Fazer uma calculadora simples, mas de forma mais profissional possivel'''
 
 n1 = float(input('Primeiro valor: ')) 
-n2 = float(input('Segundo avalor: '))
+n2 = float(input('Segundo valor: '))
 op = input('Digite a operação a ser usada: soma (+), subtração(-), multiplicação(*) ou divisão(/): ')
 
 
