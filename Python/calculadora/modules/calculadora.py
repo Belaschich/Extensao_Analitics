@@ -1,3 +1,4 @@
+import math
 
 class Calculadora:
     #TODO: documentacao
@@ -68,6 +69,13 @@ class Calculadora:
     def pot2(lista_numeros):
         try:
             resultado = lista_numeros[0] ** lista_numeros[1]
+            return resultado
+        except Exception as e:
+            print(e)
+
+    def raiz(lista_numeros):
+        try:
+            resultado = (lista_numeros[0]) ** (1/lista_numeros[1])
             return resultado
         except Exception as e:
             print(e)
