@@ -1,4 +1,4 @@
-from modules.connector2 import Interface_mysql
+from modules.projeto2_aula import Interface_mysql
 
 if __name__ == "__main__":
     try:

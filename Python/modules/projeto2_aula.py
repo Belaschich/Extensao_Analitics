@@ -1,4 +1,4 @@
-#from cgitb import reset
+from cgitb import reset
 import mysql.connector
 
 class Interface_mysql:
