@@ -16,6 +16,8 @@ if __name__ == "__main__":
         print_dados_bancos(banco_mysql, banco_mongo)
         banco_mysql.excluir("DELETE FROM funcionarios;")
         banco_mongo.excluir_varios({})
+        banco_mysql.atualizar("UPDATE INTO funcionarios(id, nome) VALUES(0,'João');")
+        banco_mongo.atualizar_varios("id":0,"nome":"João")
         
     except Exception as e:
         print(str(e))
